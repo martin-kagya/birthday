@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Queen ❤️</title>
+    <link rel="stylesheet" href="ella.css">
+</head>
+<body>
+    <div class="floating-hearts" id="floatingHearts"></div>
+    
+    <!-- Image Modal -->
+    <div class="image-modal" id="imageModal">
+        <span class="close-modal" onclick="closeImageModal()">&times;</span>
+        <img class="modal-content" id="modalImage" src="" alt="Expanded image">
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>WORLD ABENA SERWAA DAYYYY<span class="heart">❤️</span></h1>
+            <p class="subtitle">You really deserve the world</p>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('retrospect')">21st Season</button>
+            <button class="tab" onclick="showTab('music')">Songs of My Heart</button>
+            <button class="tab" onclick="showTab('feelings')">My Heart for You</button>
+            <button class="tab" onclick="showTab('birthday')">Birthday Wishes</button>
+        </div>
+
+        <div class="content">
+            <div id="retrospect" class="tab-content active">
+                <h2 class="section-title">Memories with you will last me a lifetime</h2>
+                <p style="text-align: center; color: #5d4e37; font-style: italic; margin-bottom: 30px;">
+                    Every moment with you has been a treasure. Here are some of my favorite memories from the incredible years we've shared together.
+                </p>
+                <div class="photo-grid">
+                    <div class="photo-item" onclick="openImageModal('images/photo1.jpg')">
+                        <img src="images/photo1.jpg" alt="January-March memories" class="photo">
+                        <div class="photo-caption">You are always pretty when you sleep</div>
+                    </div>
+                    <div class="photo-item" onclick="openImageModal('images/photo2.jpg')">
+                        <img src="images/photo2.jpg" alt="Baby pic" class="photo">
+                        <div class="photo-caption">Baby jpegs: You never changed</div>
+                    </div>
+                    <div class="photo-item" onclick="openImageModal('images/photo3.jpg')">
+                        <img src="images/photo3.jpg" alt="July-September memories" class="photo">
+                        <div class="photo-caption">July - September: Summer love</div>
+                    </div>
+                    <div class="photo-item" onclick="openImageModal('images/photo4.jpg')">
+                        <img src="images/photo4.jpg" alt="Smile for the camera" class="photo">
+                        <div class="photo-caption">Smile for the camera</div>
+                    </div>
+                    <div class="photo-item" onclick="openImageModal('images/photo5.jpg')">
+                        <img src="images/photo5.jpg" alt="Special moment" class="photo">
+                        <div class="photo-caption">Presentation day: Big day</div>
+                    </div>
+                    <div class="photo-item" onclick="openImageModal('images/photo7.jpg')">
+                        <img src="images/photo7.jpg" alt="Candid moment" class="photo">
+                        <div class="photo-caption">Pose for Zaddy</div>
+                    </div>
+                    <div class="photo-item" onclick="openImageModal('images/photo8.jpg')">
+                        <img src="images/photo8.jpg" alt="Candid moment" class="photo">
+                        <div class="photo-caption">Pretty lady</div>
+                    </div>
+                    <div class="photo-item" onclick="openImageModal('images/photo9.jpg')">
+                        <img src="images/photo9.jpg" alt="Candid moment" class="photo">
+                        <div class="photo-caption">That SMILE OMDDD</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="music" class="tab-content">
+                <h2 class="section-title">Songs That Remind Me of You</h2>
+                <p style="text-align: center; color: #5d4e37; font-style: italic; margin-bottom: 30px;">
+                    Music has a way of capturing feelings that words alone cannot express. These songs tell the story of how I feel about you.
+                </p>
+                <ul class="song-list">
+                    <a href="https://youtu.be/dN44xpHjNxE?si=TLC6D3jrfHkAwfLr"><li class="song-item">
+                        <div class="song-title">Love Someone</div>
+                        <div class="song-artist">Lukas Graham</div>
+                        <div class="song-reason">This song reminds me all the lengths I'm willing to go for you. Click to listen</div>
+                    </li></a>
+                    <a href="https://youtu.be/EW6BAJzOvRM?si=H2S9vuTy-cApKXUO"><li class="song-item">
+                        <div class="song-title">Vacation Eyes</div>
+                        <div class="song-artist">Jonas Brothers</div>
+                        <div class="song-reason">Vacation eyes is just how I feel about you boxed into one song. I love you more than anything</div>
+                    </li></a>
+                    <li class="song-item">
+                        <div class="song-title">Say You Won't Let Go</div>
+                        <div class="song-artist">James Arthur</div>
+                        <div class="song-reason">We've come so far, my dear, look how we've grown
+And I wanna stay with you until we're grey and old</div>
+                    </li>
+                    <li class="song-item">
+                        <div class="song-title">I want to grow old with you</div>
+                        <div class="song-artist">Westlife</div>
+                        <div class="song-reason">I wanna be 70 years and still waking up craving a kiss from you.</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="feelings" class="tab-content">
+                <h2 class="section-title">How I Feel About You Right Now</h2>
+                <div class="feelings-text">
+                    <p>Loving you is perhaps the easiest thing for me. 
+                        I've loved you from the day I set my eyes on you and I still love every fibre of your being. 
+                        You are the only one who makes sense to me. Whether you believe it or not, you have always been all I want in life</p>
+                    
+                    <p>I know things are not as planned currently in this relationship but what I know is that I have never forgotten how to love you. I wake up thinking about you and I go to bed with you lingering on my mind.
+                        I want to be the one who makes you smile, I want to be the one who holds your hand through life.
+                        I want to be the one who gives you the world, because you deserve nothing less.</p>
+                    
+                    <p>Forever might not be enough for how much I wanna love you but thats fine because I'll choose you with every single lifetime that God blesses me with. You are mine because I am fully yours.</p>
+                    
+                    <p>I know its a surprise to you after what has transpired in recent days in this relationship. But it would be dumb to think an argument will prevent me from making you know how special you are to me as a friend, mother, wife and partner.
+                        It would be dumb to think that I would stop loving you because of a disagreement. As much as I want a little portion of our relationship to change for the better, You are the only one that I want to do this love thing with.
+                        I will always love you, no matter what happens between us. You are my everything <i>EMMANUELLA ABENA SERWAA OPOKU ANANE --><strong>AGYEMANG</strong></i></p>
+                </div>
+            </div>
+
+            <div id="birthday" class="tab-content">
+                <h2 class="section-title">Happy Birthday, My Love!</h2>
+                <div class="birthday-message">
+                    <p><span class="heart">🎉</span>CELEBRATING A CUTE LADY<span class="heart">🎉</span></p>
+                    
+                    <p>Happy Birthday to you my love. Cheers to more days of abundace, happiness, love and peace for you</p>
+                    
+                    <p>I was here on your 18th, I'll be here on your 30th(We would have given birth by then chaleeee), your 40th, 50th, 60th, 70th, 80th. Baby, what I am trying to say is that, I will be here at every point in your life. We are stuck together</p>
+                    
+                    <p><span class="heart">❤️</span> Through laughter and tears, through pain and ease. I will always be here because you deserve nothing less.<span class="heart">❤️</span></p>
+                </div>
+
+                <div class="video-section">
+                    <h3 class="section-title" style="font-size: 1.5em; margin-top: 40px;">Our Special Moments Together</h3>
+                    <div class="video-container">
+                        <video class="video-display" controls>
+                            <source src="images/ELLA.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showTab(tabName) {
+            // Hide all tab contents
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Remove active class from all tabs
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected tab content
+            document.getElementById(tabName).classList.add('active');
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+        }
+
+        // Image Modal Functions
+        function openImageModal(imageSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.classList.add('active');
+            modalImg.src = imageSrc;
+            document.body.style.overflow = 'hidden'; // Prevent scrolling
+        }
+
+        function closeImageModal() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto'; // Restore scrolling
+        }
+
+        // Close modal when clicking outside the image
+        document.getElementById('imageModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeImageModal();
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeImageModal();
+            }
+        });
+
+        // Video Upload Function
+        function uploadVideo() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = 'video/*';
+            input.onchange = function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        const videoDisplay = document.getElementById('videoDisplay');
+                        const videoPlaceholder = document.getElementById('videoPlaceholder');
+                        
+                        videoDisplay.src = e.target.result;
+                        videoDisplay.style.display = 'block';
+                        videoPlaceholder.style.display = 'none';
+                    };
+                    reader.readAsDataURL(file);
+                }
+            };
+            input.click();
+        }
+
+        // Create floating hearts animation
+        function createFloatingHeart() {
+            const heart = document.createElement('div');
+            heart.className = 'floating-heart';
+            heart.innerHTML = '❤️';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = (Math.random() * 3 + 3) + 's';
+            heart.style.opacity = Math.random() * 0.5 + 0.1;
+            
+            document.getElementById('floatingHearts').appendChild(heart);
+            
+            // Remove heart after animation
+            setTimeout(() => {
+                heart.remove();
+            }, 6000);
+        }
+
+        // Create hearts periodically
+        setInterval(createFloatingHeart, 2000);
+    </script>
+</body>
+</html>
