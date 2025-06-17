@@ -35,36 +35,36 @@
                     Every moment with you has been a treasure. Here are some of my favorite memories from the incredible years we've shared together.
                 </p>
                 <div class="photo-grid">
-                    <div class="photo-item" onclick="openImageModal('images/photo1.jpg')">
-                        <img src="images/photo1.jpg" alt="January-March memories" class="photo">
+                    <div class="photo-item" onclick="openImageModal('public/photo1.jpg')">
+                        <img src="public/photo1.jpg" alt="memories" class="photo">
                         <div class="photo-caption">You are always pretty when you sleep</div>
                     </div>
-                    <div class="photo-item" onclick="openImageModal('images/photo2.jpg')">
-                        <img src="images/photo2.jpg" alt="Baby pic" class="photo">
+                    <div class="photo-item" onclick="openImageModal('public/photo2.jpg')">
+                        <img src="public/photo2.jpg" alt="Baby pic" class="photo">
                         <div class="photo-caption">Baby jpegs: You never changed</div>
                     </div>
-                    <div class="photo-item" onclick="openImageModal('images/photo3.jpg')">
-                        <img src="images/photo3.jpg" alt="July-September memories" class="photo">
-                        <div class="photo-caption">July - September: Summer love</div>
+                    <div class="photo-item" onclick="openImageModal('public/photo3.jpg')">
+                        <img src="public/photo3.jpg" alt="memories" class="photo">
+                        <div class="photo-caption">My love</div>
                     </div>
-                    <div class="photo-item" onclick="openImageModal('images/photo4.jpg')">
-                        <img src="images/photo4.jpg" alt="Smile for the camera" class="photo">
+                    <div class="photo-item" onclick="openImageModal('public/photo4.jpg')">
+                        <img src="public/photo4.jpg" alt="Smile for the camera" class="photo">
                         <div class="photo-caption">Smile for the camera</div>
                     </div>
-                    <div class="photo-item" onclick="openImageModal('images/photo5.jpg')">
-                        <img src="images/photo5.jpg" alt="Special moment" class="photo">
+                    <div class="photo-item" onclick="openImageModal('public/photo5.jpg')">
+                        <img src="public/photo5.jpg" alt="Special moment" class="photo">
                         <div class="photo-caption">Presentation day: Big day</div>
                     </div>
-                    <div class="photo-item" onclick="openImageModal('images/photo7.jpg')">
-                        <img src="images/photo7.jpg" alt="Candid moment" class="photo">
+                    <div class="photo-item" onclick="openImageModal('public/photo7.jpg')">
+                        <img src="public/photo7.jpg" alt="Candid moment" class="photo">
                         <div class="photo-caption">Pose for Zaddy</div>
                     </div>
-                    <div class="photo-item" onclick="openImageModal('images/photo8.jpg')">
-                        <img src="images/photo8.jpg" alt="Candid moment" class="photo">
+                    <div class="photo-item" onclick="openImageModal('public/photo8.jpg')">
+                        <img src="public/photo8.jpg" alt="Candid moment" class="photo">
                         <div class="photo-caption">Pretty lady</div>
                     </div>
-                    <div class="photo-item" onclick="openImageModal('images/photo9.jpg')">
-                        <img src="images/photo9.jpg" alt="Candid moment" class="photo">
+                    <div class="photo-item" onclick="openImageModal('public/photo9.jpg')">
+                        <img src="public/photo9.jpg" alt="Candid moment" class="photo">
                         <div class="photo-caption">That SMILE OMDDD</div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@ And I wanna stay with you until we're grey and old</div>
                     <h3 class="section-title" style="font-size: 1.5em; margin-top: 40px;">Our Special Moments Together</h3>
                     <div class="video-container">
                         <video class="video-display" controls>
-                            <source src="images/ELLA.mp4" type="video/mp4">
+                            <source src="public/ELLA.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -166,11 +166,11 @@ And I wanna stay with you until we're grey and old</div>
         }
 
         // Image Modal Functions
-        function openImageModal(imageSrc) {
+        function openImageModal(publicrc) {
             const modal = document.getElementById('imageModal');
             const modalImg = document.getElementById('modalImage');
             modal.classList.add('active');
-            modalImg.src = imageSrc;
+            modalImg.src = publicrc;
             document.body.style.overflow = 'hidden'; // Prevent scrolling
         }
 
